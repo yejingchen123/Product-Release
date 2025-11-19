@@ -1,0 +1,6 @@
+pytorch
+transformers
+datasets
+scikit-learn
+FastAPI
+Uvicorn

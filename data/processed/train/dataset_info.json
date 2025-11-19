@@ -1,0 +1,79 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 7766355,
+  "description": "",
+  "download_checksums": {
+    "/root/autodl-tmp/Product-Release/data/raw/train.txt": {
+      "num_bytes": 4644637,
+      "checksum": null
+    },
+    "/root/autodl-tmp/Product-Release/data/raw/test.txt": {
+      "num_bytes": 1161322,
+      "checksum": null
+    },
+    "/root/autodl-tmp/Product-Release/data/raw/valid.txt": {
+      "num_bytes": 1161322,
+      "checksum": null
+    }
+  },
+  "download_size": 6967281,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 14733636,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 5177367,
+      "num_examples": 88824,
+      "dataset_name": "csv"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1294494,
+      "num_examples": 22207,
+      "dataset_name": "csv"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1294494,
+      "num_examples": 22207,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
